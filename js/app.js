@@ -155,17 +155,17 @@ $('document').ready(function () {
         if (Math.round(scroll + windowHeight) >= Math.round(straTop + straHeight)) {
 
 
-            TweenMax.to('.strategique', 0.5, {
+            TweenMax.to('.strategique', 0.2, {
                 opacity: 1,
                 delay: 0.2
             })
             
             
-            TweenMax.to('.strategique p', 0.5, {
+            TweenMax.to('.strategique p', 0.2, {
                 opacity: 1,
                 delay: 0.6
             })
-            TweenMax.to('.strategique a', 0.5, {
+            TweenMax.to('.strategique a', 0.2, {
                 opacity: 1,
                 delay: 0.8
             })
