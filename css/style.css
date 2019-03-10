@@ -1,0 +1,393 @@
+/* ----- FONT ----- */
+
+
+@font-face {
+    font-family: "CRB-Medium";
+    src: url("../fonts/CeraRoundBasic-Medium.woff") format("woff");
+}
+
+
+@font-face {
+    font-family: "helvetica";
+    src: url("../fonts/helvetica.woff") format("woff");
+}
+
+
+@font-face {
+    font-family: "gu";
+    src: url("../fonts/Gotham-Ultra.woff") format("woff");
+}
+
+
+
+
+/* ----- FONT ----- */
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@-o-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
+
+/* ----- START ----- */
+
+body {
+
+    font-family: "helvetica";
+    color: #333333;
+    
+    background: yellow;
+
+}
+
+h2 {
+
+    font-family: 'gu';
+    margin-bottom: 5px;
+}
+
+.TopNav-logo {
+
+
+    width: 100px;
+    position: fixed;
+    top: 50px;
+    left: 20px;
+}
+
+.logo-text {
+
+
+    opacity: 0;
+
+}
+
+h1 {
+
+    font-family: 'gu';
+    margin-top: 100px;
+    margin-left: 50px;
+    transform: translateY(20%);
+    opacity: 0;
+
+}
+
+video {
+
+    width: 100%;
+}
+
+.visible {
+    
+    opacity: 0;
+     transform: translateX(-30%);
+}
+
+
+.firstp {
+
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 250px;
+    font-size: 1.5rem;
+    
+    transform: translateY(50%);
+    opacity: 0;
+}
+
+.partner {
+
+    display: flex;
+    margin: auto;
+    width: 100%;
+    margin: 100px 0 100px 0;
+
+}
+
+.partner div {
+
+    margin: auto;
+}
+
+.partner svg {
+
+    width: 100px;
+
+}
+
+.google,
+.facebook,
+.slack {
+
+    height: 500px;
+    width: 90%;
+    margin: 50px auto 50px auto;
+
+
+
+}
+
+.facebook {
+
+    margin-top: 150px;
+}
+
+
+.google p,
+.facebook p,
+.slack p {
+
+    color: #b1c0d4;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+
+.google h2,
+.facebook h2,
+.slack h2 {
+
+    margin-left: 30px;
+}
+
+
+
+
+
+.strategique {
+
+    height: 500px;
+    width: 100%;
+    background: #EFEFEF;
+    margin-bottom: 0;
+    padding-top: 30%;
+
+}
+
+.strategique p {
+
+    font-family: "gu";
+    font-size: 2rem;
+    margin: auto auto 50px auto;
+    width: 75%;
+    text-align: left;
+
+
+
+
+}
+
+
+.strategique a {
+
+    font-family: 'helvetica';
+    color: #343434;
+    font-size: 1.3rem;
+    margin: 100px 0 0 50px ;
+   
+
+}
+
+
+.lets{
+    
+ 
+    width: 100%;
+    background: #bff9f2;
+    margin-top: 0;
+    
+}
+
+.lets h2{
+    
+    font-size: 3rem;
+    margin: 0px 0 20px 30px;
+    padding-top: 70px;
+}
+
+
+.lets a {
+
+    font-family: 'helvetica';
+    color: #343434;
+    font-size: 1.3rem;
+    margin: 70px 0 0 30px
+ 
+   
+
+}
+
+.lets .contour{
+    
+    
+   
+    width: 100%;
+     padding-top: 100px ;
+    display: flex;
+}
+
+
+
+.lets .left{
+    
+    
+    width: 50%;
+    
+    
+}
+
+
+.lets .left p{
+    
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+    opacity: 0.8;
+    
+}
+.lets .right{
+    
+    
+    width: 48%;
+    
+    
+}
+
+
+.lets .right p{
+    
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+    opacity: 0.8;
+    
+}
+
+
+.lets .add{
+    
+    height: 100%;
+    margin-left: 80px;
+    line-height: 30px;
+    font-size: 1rem;
+    opacity: 0.8;
+    padding-bottom: 80px;
+    padding-top: 30px;
+}
+
+
+.active{
+    
+    color: red;
+}
+
+
+/* ///// --- MEDIA QUERY --- ///// */
+
+@media screen and (min-width: 640px) {
+  
+    
+    video{
+        
+        width: 90%;
+        margin: 0 5% 0 5%;
+    }
+    .visible{
+        
+        margin-top: 300px;
+        
+    }
+    h1{
+        
+        font-size: 5rem;
+       position: absolute;
+        z-index: 99;
+        left: 15%;
+        top: 25%;
+        margin: 0;
+    }
+    
+    .firstp{
+        
+        width: 50%;
+        font-size: 2.3rem;
+        margin-left: 300px;
+        
+    }
+    
+    .partner svg {
+        
+        width: 150px;
+    }
+    
+    .facebook , .google, .slack {
+        
+        width: 500px;
+    }
+    
+    .dis{
+        
+        display: flex;
+    }
+    
+    .google{
+        
+        margin-right: 0;
+    }
+    
+    .facebook{
+        
+        margin-top: 400px;
+        margin-left: 0px;
+    }
+    
+
+    
+    .strategique{
+        
+        width: 90%;
+        margin-left: 5%;
+        padding: 7% 0 0 0;
+        height: 400px;
+    }
+    
+    .strategique p{
+        
+        margin: 0 0 50px 10% ;
+        padding: 0;
+        width: auto;
+        text-align: none;
+        font-size: 3rem;
+    }
+    .strategique a{
+        
+        margin: 50px 0 0 10% ;
+        padding: 0;
+        padding-top: 10%;
+        width: 100%;
+        text-align: none;
+        font-size: 3rem;
+    }
+    
+    .lets{
+        
+        margin-top: 50px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .lts h2{
+        
+        
+    }
+}
+
+
+
+
